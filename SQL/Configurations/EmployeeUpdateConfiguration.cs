@@ -1,0 +1,72 @@
+using Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
+namespace SQL.Configurations;
+
+public class EmployeeUpdateRequestConfiguration : IEntityTypeConfiguration<EmployeeUpdateRequest>
+{
+    public void Configure(EntityTypeBuilder<EmployeeUpdateRequest> builder)
+    {
+        builder.HasKey(e => e.Id);
+        builder.Property(e => e.Id).HasColumnName("request_id");
+        
+        builder.Property(e => e.EmployeeId)
+            .HasColumnName("emp_id")
+            .IsRequired(); 
+        
+        builder.Property(e => e.NewFullName)
+            .HasColumnName("new_full_name")
+            .HasMaxLength(150)
+            .IsRequired(false);
+        
+        builder.Property(e => e.NewGender)
+            .HasColumnName("new_gender")
+            .HasMaxLength(50)
+            .IsRequired(false);
+
+        builder.Property(e => e.NewStreetAddress)
+            .HasColumnName("new_street_address")
+            .HasMaxLength(150)
+            .IsRequired(false);
+        
+        builder.Property(e => e.NewCity)
+            .HasColumnName("new_city")
+            .HasMaxLength(100)
+            .IsRequired(false);
+        
+        builder.Property(e => e.NewProvince)
+            .HasColumnName("new_province")
+            .HasMaxLength(50)
+            .IsRequired(false);
+        
+        builder.Property(e => e.NewPostalCode)
+            .HasColumnName("new_postal_code")
+            .HasMaxLength(15)
+            .IsRequired(false);
+
+        builder.Property(e => e.NewPhoneNumber)
+            .HasColumnName("new_phone_number")
+            .HasMaxLength(25)
+            .IsRequired(false);
+        
+        builder.Property(e => e.Status)
+            .HasColumnName("request_status")
+            .HasConversion<string>() 
+            .IsRequired();
+
+        builder.Property(e => e.HrReason)
+            .HasColumnName("hr_reason")
+            .HasMaxLength(200)
+            .IsRequired(false);
+
+        builder.Property(e => e.CreatedAt)
+            .HasColumnName("created_at")
+            .IsRequired();
+        
+        builder.HasOne(e => e.Employee)
+            .WithMany() 
+            .HasForeignKey(e => e.EmployeeId)
+            .OnDelete(DeleteBehavior.Cascade);
+    }
+}

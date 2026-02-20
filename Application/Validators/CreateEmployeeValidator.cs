@@ -1,0 +1,67 @@
+using Application.Commands;
+using FluentValidation;
+
+namespace Application.Validators;
+
+public class CreateEmployeeValidator : AbstractValidator<CreateEmployeeCommand>
+{
+    public CreateEmployeeValidator()
+    {
+        RuleFor(x => x.RequestDto.FullName)
+            .NotEmpty().WithMessage("Full name is required.")
+            .MaximumLength(100).WithMessage("Full name cannot exceed 100 characters.");
+
+        RuleFor(x => x.RequestDto.Gender)
+            .IsInEnum().WithMessage("Please select a valid gender option.");
+        
+        RuleFor(x => x.RequestDto.PersonalEmail)
+            .NotEmpty().WithMessage("Email is required.")
+            .EmailAddress().WithMessage("A valid email is required.");
+        
+        RuleFor(x => x.RequestDto.EmployeeEmail)
+            .NotEmpty().WithMessage("Employee email is required.")
+            .EmailAddress().WithMessage("A valid email is required.");
+        
+        RuleFor(x => x.RequestDto.Nik)
+            .NotEmpty().WithMessage("Nik is required.")
+            .MaximumLength(16).WithMessage("Nik cannot exceed 16 characters.");
+        
+        RuleFor(x => x.RequestDto.PlaceOfBirth)
+            .NotEmpty().WithMessage("Birth Place is required.")
+            .MaximumLength(100).WithMessage("Birth Place cannot exceed 100 characters.");
+
+        RuleFor(x => x.RequestDto.DateOfBirth)
+            .NotEmpty().WithMessage("Date of birth is required.");
+        
+        RuleFor(x => x.RequestDto.MaritalStatus)
+            .IsInEnum().WithMessage("Please select a valid marital status option.");
+        
+        RuleFor(x => x.RequestDto.StreetAddress)
+            .NotEmpty().WithMessage("Street address is required.")
+            .MaximumLength(150).WithMessage("Street address cannot exceed 150 characters.");
+        
+        RuleFor(x => x.RequestDto.City)
+            .NotEmpty().WithMessage("City is required.")
+            .MaximumLength(100).WithMessage("City cannot exceed 100 characters.");
+        
+        RuleFor(x => x.RequestDto.Province)
+            .NotEmpty().WithMessage("Province is required.")
+            .MaximumLength(50).WithMessage("Province cannot exceed 50 characters.");
+        
+        RuleFor(x => x.RequestDto.PostalCode)
+            .NotEmpty().WithMessage("Postal code is required.")
+            .MaximumLength(15).WithMessage("Postal code cannot exceed 15 characters.");
+        
+        RuleFor(x => x.RequestDto.PhoneNumber)
+            .NotEmpty().WithMessage("Phone number is required.")
+            .MaximumLength(25).WithMessage("Phone number cannot exceed 25 characters.")
+            .Matches(@"^\+?[0-9\s\-]+$").WithMessage("Invalid phone number format.");
+        
+        RuleFor(x => x.RequestDto.EmploymentInformation)
+            .SetValidator(new CreateEmploymentInfoValidator()!)
+            .When(x => x.RequestDto.EmploymentInformation != null);
+
+        RuleForEach(x => x.RequestDto.EmergencyContacts)
+            .SetValidator(new CreateEmergencyContactValidator());
+    }
+}
