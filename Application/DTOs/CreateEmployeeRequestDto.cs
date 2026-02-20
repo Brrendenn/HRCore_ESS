@@ -12,7 +12,7 @@ public class CreateEmployeeRequestDto
     public string PhoneNumber { get; set; } = string.Empty;
     public string Nik { get; set; } = string.Empty;
     public string PlaceOfBirth { get; set; } = string.Empty;
-    public DateOnly DateOfBirth { get; set; }
+    public DateTime DateOfBirth { get; set; }
     public MaritalStatus MaritalStatus { get; set; }
     public string StreetAddress { get; set; } = string.Empty;
     public string City { get; set; } = string.Empty;
@@ -25,7 +25,7 @@ public class CreateEmployeeRequestDto
 public class CreateEmploymentInfoDto
 {
     public EmployeeStatus EmploymentStatus { get; set; }
-    public DateOnly StartDate { get; set; } = DateOnly.FromDateTime(DateTime.Now);
+    public DateTime StartDate { get; set; } = DateTime.Now;
     public EmploymentType EmploymentType { get; set; }
     public string Department { get; set; } = string.Empty;
     public string Position { get; set; } =  string.Empty;

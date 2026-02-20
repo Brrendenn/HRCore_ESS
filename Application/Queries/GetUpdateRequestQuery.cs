@@ -26,7 +26,7 @@ public class GetUpdateRequestQuery(RequestStatus? status) : IRequest<List<Employ
                 NewGender = r.NewGender ?? GenderStatus.Female,
                 NewPersonalEmail = r.NewPersonalEmail ?? string.Empty,
                 NewPlaceOfBirth = r.NewPlaceOfBirth ?? string.Empty,
-                NewDateOfBirth = r.NewDateOfBirth ?? DateOnly.MinValue,
+                NewDateOfBirth = r.NewDateOfBirth ?? DateTime.MinValue,
                 NewMaritalStatus = r.NewMaritalStatus ?? MaritalStatus.Single,
                 NewStreetAddress = r.NewStreetAddress ?? string.Empty,
                 NewCity = r.NewCity ?? string.Empty,

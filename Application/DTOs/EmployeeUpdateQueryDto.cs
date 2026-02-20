@@ -11,7 +11,7 @@ public class EmployeeUpdateQueryDto
     public GenderStatus NewGender { get; set; }
     public string NewPersonalEmail { get; set; } = string.Empty;
     public string NewPlaceOfBirth { get; set; } = string.Empty;
-    public DateOnly NewDateOfBirth { get; set; }
+    public DateTime NewDateOfBirth { get; set; }
     public MaritalStatus NewMaritalStatus { get; set; }
     public string NewStreetAddress { get; set; } = string.Empty;
     public string NewCity { get; set; } = string.Empty;
@@ -23,5 +23,5 @@ public class EmployeeUpdateQueryDto
     public string NewEmergencyContactName { get; set; } = string.Empty;
     public string NewEmergencyContactPhone { get; set; } = string.Empty;
     public string NewEmergencyContactRelationship { get; set; } = string.Empty;
-    public DateOnly CreatedAt { get; set; }
+    public DateTime CreatedAt { get; set; }
 }

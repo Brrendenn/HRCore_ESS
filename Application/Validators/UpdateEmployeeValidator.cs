@@ -26,7 +26,7 @@ public class UpdateEmployeeValidator : AbstractValidator<UpdateEmployeeCommand>
             .When(x => !string.IsNullOrWhiteSpace(x.PlaceOfBirth));
 
         RuleFor(x => x.DateOfBirth)
-            .LessThan(DateOnly.FromDateTime(DateTime.Today)).WithMessage("Date of birth cannot be in the future.")
+            .LessThan(DateTime.Today).WithMessage("Date of birth cannot be in the future.")
             .When(x => x.DateOfBirth.HasValue);
 
         RuleFor(x => x.MaritalStatus)

@@ -5,6 +5,7 @@
 /Users/BrandonsLaptop/IdeaProjects/HRCore_ESS/Domain/obj/Debug/net10.0/Domain.AssemblyInfoInputs.cache
 /Users/BrandonsLaptop/IdeaProjects/HRCore_ESS/Domain/obj/Debug/net10.0/Domain.AssemblyInfo.cs
 /Users/BrandonsLaptop/IdeaProjects/HRCore_ESS/Domain/obj/Debug/net10.0/Domain.csproj.CoreCompileInputs.cache
+/Users/BrandonsLaptop/IdeaProjects/HRCore_ESS/Domain/obj/Debug/net10.0/Domain.sourcelink.json
 /Users/BrandonsLaptop/IdeaProjects/HRCore_ESS/Domain/obj/Debug/net10.0/Domain.dll
 /Users/BrandonsLaptop/IdeaProjects/HRCore_ESS/Domain/obj/Debug/net10.0/refint/Domain.dll
 /Users/BrandonsLaptop/IdeaProjects/HRCore_ESS/Domain/obj/Debug/net10.0/Domain.pdb

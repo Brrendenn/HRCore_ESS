@@ -17,7 +17,7 @@ public class UpdateEmployeeCommand(UpdateEmployeeCommandDto commandDto) : IReque
     public string PhoneNumber { get; set; } = commandDto.PhoneNumber;
     public string PersonalEmail { get; set; } = commandDto.PersonalEmail;
     public string PlaceOfBirth { get; set; } = commandDto.PlaceOfBirth;
-    public DateOnly? DateOfBirth { get; set; } = commandDto.DateOfBirth;
+    public DateTime? DateOfBirth { get; set; } = commandDto.DateOfBirth;
     public MaritalStatus? MaritalStatus { get; set; } = commandDto.MaritalStatus;
     public string EmergencyContactName { get; set; } = commandDto.EmergencyContactName;
     public string? EmergencyContactPhone { get; set; } = commandDto.EmergencyContactPhone;
@@ -55,7 +55,7 @@ public class UpdateEmployeeCommand(UpdateEmployeeCommandDto commandDto) : IReque
                 NewEmergencyContactPhone = string.IsNullOrWhiteSpace(command.EmergencyContactPhone) ? null : command.EmergencyContactPhone,
                 NewEmergencyContactRelationship = command.EmergencyContactRelationship ?? string.Empty,
                 Status = RequestStatus.Pending,
-                CreatedAt = DateOnly.FromDateTime(DateTime.Now),
+                CreatedAt = DateTime.UtcNow
             };
 
             await requestRepository.SubmitUpdateRequestAsync(request);
@@ -84,7 +84,7 @@ public class UpdateEmployeeCommand(UpdateEmployeeCommandDto commandDto) : IReque
                 Nik = employee.Nik,
                 IsActive = employee.IsActive,
                 EmployeeStatus = employee.EmploymentInformation?.EmploymentStatus ?? EmployeeStatus.Active,
-                StartDate = employee.EmploymentInformation?.StartDate ?? DateOnly.MinValue,
+                StartDate = employee.EmploymentInformation?.StartDate ?? DateTime.MinValue,
                 EmploymentType = employee.EmploymentInformation?.EmploymentType ?? EmploymentType.Fulltime,
                 Department = employee.EmploymentInformation?.Department ?? "",
                 Position = employee.EmploymentInformation?.Position ?? "",

@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Reflection.Metadata;
 using Domain.Enum;
 
 namespace Domain.Entities;
@@ -11,7 +13,8 @@ public class Employee
     public string EmployeeEmail { get; set; } =   string.Empty;
     public string Nik { get; set; } = string.Empty;
     public string PlaceOfBirth { get; set; } =   string.Empty;
-    public DateOnly DateOfBirth { get; set; } =   DateOnly.FromDateTime(DateTime.Now);
+    [Column(TypeName = "date")]
+    public DateTime DateOfBirth { get; set; } =   DateTime.Now;
     public MaritalStatus MaritalStatus { get; set; }
     public string StreetAddress { get; set; } =  string.Empty;
     public string City { get; set; } =   string.Empty;

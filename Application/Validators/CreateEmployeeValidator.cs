@@ -36,7 +36,7 @@ public class CreateEmployeeValidator : AbstractValidator<CreateEmployeeCommand>
 
         RuleFor(x => x.RequestDto.DateOfBirth)
             .NotEmpty().WithMessage("Date of birth is required.")
-            .LessThanOrEqualTo(DateOnly.FromDateTime(DateTime.Today).AddYears(-18))
+            .LessThanOrEqualTo(DateTime.Today.AddYears(-18))
             .WithMessage("Employee must be at least 18 years old.");
         
         RuleFor(x => x.RequestDto.MaritalStatus)

@@ -37,7 +37,7 @@ public class GetMyProfileQuery : IRequest<EmployeeProfileResponseDto>
                 
                 EmployeeId = profile.EmploymentInformation?.EmployeeId ?? 0,
                 EmployeeStatus = profile.EmploymentInformation?.EmploymentStatus ?? EmployeeStatus.Inactive,
-                StartDate = profile.EmploymentInformation?.StartDate ?? DateOnly.FromDateTime(DateTime.Now),
+                StartDate = profile.EmploymentInformation?.StartDate ?? DateTime.Now,
                 EmploymentType = profile.EmploymentInformation?.EmploymentType ?? EmploymentType.Unknown,
                 Department = profile.EmploymentInformation?.Department ?? string.Empty,
                 Position = profile.EmploymentInformation?.Position ?? string.Empty,

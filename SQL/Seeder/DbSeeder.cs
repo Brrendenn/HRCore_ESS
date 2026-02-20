@@ -39,7 +39,7 @@ public static class DbSeeder
             EmployeeEmail = hrUser.EmployeeEmail, 
             Nik = "3171234567890001",
             PlaceOfBirth = "Jakarta",
-            DateOfBirth = new DateOnly(1998, 5, 15),
+            DateOfBirth = new DateTime(1998, 5, 15),
             MaritalStatus = MaritalStatus.Single,
             StreetAddress = "Jl. Sudirman No. 1", 
             City = "Jakarta",
@@ -52,7 +52,7 @@ public static class DbSeeder
             {
                 EmploymentStatus = EmployeeStatus.Active,
                 EmploymentType =  EmploymentType.Fulltime,
-                StartDate = new DateOnly(2024, 1, 1),
+                StartDate = new DateTime(2024, 1, 1),
                 Department = "Human Resources",
                 Position = "HR Manager",
                 SupervisorName = "Alexander Tyas Aji Wardhana"
@@ -72,7 +72,7 @@ public static class DbSeeder
             EmployeeEmail = empUser.EmployeeEmail, 
             Nik = "3271234567890002",
             PlaceOfBirth = "Bandung",
-            DateOfBirth = new DateOnly(2002, 8, 20),
+            DateOfBirth = new DateTime(2002, 8, 20),
             MaritalStatus = MaritalStatus.Divorced,
             StreetAddress = "Jl. Dago No. 42", 
             City = "Bandung",
@@ -85,7 +85,7 @@ public static class DbSeeder
             {
                 EmploymentStatus = EmployeeStatus.Active,
                 EmploymentType =  EmploymentType.Intern,
-                StartDate = new DateOnly(2026, 1, 10),
+                StartDate = new DateTime(2026, 1, 10),
                 Department = "IT",
                 Position = "Application Developer",
                 SupervisorName = "Alexander Tyas Aji Wardhana"
