@@ -12,7 +12,7 @@ public class EmployeeUpdateRequest
     public GenderStatus? NewGender { get; set; }
     public string? NewPersonalEmail { get; set; } = string.Empty;
     public string? NewPlaceOfBirth { get; set; } = string.Empty;
-    public DateTime? NewDateOfBirth { get; set; }
+    public DateOnly? NewDateOfBirth { get; set; }
     public MaritalStatus? NewMaritalStatus { get; set; }
     public string? NewStreetAddress { get; set; } = string.Empty;
     public string? NewCity { get; set; } = string.Empty;
@@ -27,5 +27,5 @@ public class EmployeeUpdateRequest
 
     public RequestStatus Status { get; set; }
     public string HrReason { get; set; } = string.Empty;
-    public DateTime CreatedAt { get; set; }
+    public DateOnly CreatedAt { get; set; }
 }

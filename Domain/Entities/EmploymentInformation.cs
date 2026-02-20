@@ -8,7 +8,7 @@ public class EmploymentInformation
     public int EmployeeId { get; set; }
     public Employee Employee { get; set; } = null!;
     public EmployeeStatus EmploymentStatus { get; set; }
-    public DateTime StartDate { get; set; }
+    public DateOnly StartDate { get; set; }
     public EmploymentType EmploymentType { get; set; }
     public string Department { get; set; } = string.Empty;
     public string Position { get; set; } = string.Empty;

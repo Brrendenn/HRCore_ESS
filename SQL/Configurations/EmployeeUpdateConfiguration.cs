@@ -24,6 +24,24 @@ public class EmployeeUpdateRequestConfiguration : IEntityTypeConfiguration<Emplo
             .HasColumnName("new_gender")
             .HasMaxLength(50)
             .IsRequired(false);
+        
+        builder.Property(e => e.NewPersonalEmail)
+            .HasColumnName("new_personal_email")
+            .HasMaxLength(150)
+            .IsRequired(false);
+        
+        builder.Property(e => e.NewPlaceOfBirth)
+            .HasColumnName("new_place_of_birth")
+            .HasMaxLength(150)
+            .IsRequired(false);
+        
+        builder.Property(e => e.NewDateOfBirth)
+            .HasColumnName("new_date_of_birth")
+            .IsRequired(false);
+        
+        builder.Property(e => e.NewMaritalStatus)
+            .HasColumnName("new_marital_status")
+            .IsRequired(false);
 
         builder.Property(e => e.NewStreetAddress)
             .HasColumnName("new_street_address")

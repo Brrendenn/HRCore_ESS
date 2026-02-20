@@ -9,7 +9,7 @@ public class UpdateEmployeeInfoCommand(int employeeId, UpdateEmploymentInfoDto c
 {
     public int EmployeeId { get; set; } = employeeId;
     public EmployeeStatus? EmploymentStatus { get; set; } = commandDto.EmploymentStatus;
-    public DateTime? StartDate { get; set; } = commandDto.StartDate;
+    public DateOnly? StartDate { get; set; } = commandDto.StartDate;
     public EmploymentType? EmploymentType { get; set; } = commandDto.EmploymentType;
     public string Department { get; set; } = commandDto.Department;
     public string Position { get; set; } = commandDto.Position;

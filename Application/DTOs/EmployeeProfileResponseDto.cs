@@ -16,14 +16,14 @@ public class EmployeeProfileResponseDto
     public string PhoneNumber { get; set; } =   string.Empty;
     public string Nik { get; set; } =  string.Empty;
     public string PlaceOfBirth { get; set; } =   string.Empty;
-    public DateTime DateOfBirth { get; set; }
+    public DateOnly DateOfBirth { get; set; }
     public MaritalStatus MaritalStatus { get; set; }
     public bool IsActive { get; set; }
     
     //Employment Information
     public int EmployeeId { get; set; }
     public EmployeeStatus EmployeeStatus { get; set; }
-    public DateTime StartDate { get; set; }
+    public DateOnly StartDate { get; set; }
     public EmploymentType EmploymentType { get; set; }
     public string Department { get; set; } = string.Empty;
     public string Position { get; set; } = string.Empty;

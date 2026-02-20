@@ -16,22 +16,28 @@ public class CreateEmployeeValidator : AbstractValidator<CreateEmployeeCommand>
         
         RuleFor(x => x.RequestDto.PersonalEmail)
             .NotEmpty().WithMessage("Email is required.")
-            .EmailAddress().WithMessage("A valid email is required.");
-        
+            .EmailAddress().WithMessage("A valid email is required.")
+            .NotEqual(x => x.RequestDto.EmployeeEmail).WithMessage("Personal email cannot be the same as the employee email.");
+
         RuleFor(x => x.RequestDto.EmployeeEmail)
             .NotEmpty().WithMessage("Employee email is required.")
-            .EmailAddress().WithMessage("A valid email is required.");
+            .EmailAddress().WithMessage("A valid email is required.")
+            .Must(email => email.EndsWith("@aia.com", StringComparison.OrdinalIgnoreCase))
+            .WithMessage("Email must be a valid aia.com email");
         
         RuleFor(x => x.RequestDto.Nik)
             .NotEmpty().WithMessage("Nik is required.")
-            .MaximumLength(16).WithMessage("Nik cannot exceed 16 characters.");
+            .Length(16).WithMessage("Nik must be exactly 16 digits.") 
+            .Matches("^[0-9]+$").WithMessage("Nik can only contain numbers.");
         
         RuleFor(x => x.RequestDto.PlaceOfBirth)
             .NotEmpty().WithMessage("Birth Place is required.")
             .MaximumLength(100).WithMessage("Birth Place cannot exceed 100 characters.");
 
         RuleFor(x => x.RequestDto.DateOfBirth)
-            .NotEmpty().WithMessage("Date of birth is required.");
+            .NotEmpty().WithMessage("Date of birth is required.")
+            .LessThanOrEqualTo(DateOnly.FromDateTime(DateTime.Today).AddYears(-18))
+            .WithMessage("Employee must be at least 18 years old.");
         
         RuleFor(x => x.RequestDto.MaritalStatus)
             .IsInEnum().WithMessage("Please select a valid marital status option.");
