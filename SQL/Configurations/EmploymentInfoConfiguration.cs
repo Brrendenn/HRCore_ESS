@@ -22,7 +22,7 @@ public class EmploymentInfoConfiguration : IEntityTypeConfiguration<EmploymentIn
         
         builder.Property(e => e.StartDate)
             .HasColumnName("employment_start_date")
-            .HasColumnType("datetime");
+            .HasColumnType("date");
 
         builder.Property(e => e.EmploymentType)
             .HasColumnName("employment_type")

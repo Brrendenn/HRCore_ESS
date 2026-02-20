@@ -37,6 +37,7 @@ public class EmployeeUpdateRequestConfiguration : IEntityTypeConfiguration<Emplo
         
         builder.Property(e => e.NewDateOfBirth)
             .HasColumnName("new_date_of_birth")
+            .HasColumnType("date")
             .IsRequired(false);
         
         builder.Property(e => e.NewMaritalStatus)

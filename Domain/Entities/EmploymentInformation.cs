@@ -9,7 +9,6 @@ public class EmploymentInformation
     public int EmployeeId { get; set; }
     public Employee Employee { get; set; } = null!;
     public EmployeeStatus EmploymentStatus { get; set; }
-    [Column(TypeName = "date")]
     public DateTime StartDate { get; set; }
     public EmploymentType EmploymentType { get; set; }
     public string Department { get; set; } = string.Empty;

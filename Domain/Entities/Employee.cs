@@ -13,7 +13,6 @@ public class Employee
     public string EmployeeEmail { get; set; } =   string.Empty;
     public string Nik { get; set; } = string.Empty;
     public string PlaceOfBirth { get; set; } =   string.Empty;
-    [Column(TypeName = "date")]
     public DateTime DateOfBirth { get; set; } =   DateTime.Now;
     public MaritalStatus MaritalStatus { get; set; }
     public string StreetAddress { get; set; } =  string.Empty;
