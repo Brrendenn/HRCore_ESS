@@ -17,3 +17,4 @@
 /Users/BrandonsLaptop/IdeaProjects/HRCore_ESS/SQL/obj/Debug/net10.0/SQL.pdb
 /Users/BrandonsLaptop/IdeaProjects/HRCore_ESS/SQL/obj/Debug/net10.0/SQL.genruntimeconfig.cache
 /Users/BrandonsLaptop/IdeaProjects/HRCore_ESS/SQL/obj/Debug/net10.0/ref/SQL.dll
+/Users/BrandonsLaptop/IdeaProjects/HRCore_ESS/SQL/obj/Debug/net10.0/SQL.sourcelink.json

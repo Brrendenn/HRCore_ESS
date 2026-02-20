@@ -4,9 +4,8 @@ namespace Application.DTOs;
 
 public class UpdateEmploymentInfoDto
 {
-    public int EmployeeId { get; set; }
     public EmployeeStatus EmploymentStatus { get; set; }
-    public DateTime StartDate { get; set; }
+    public DateTime? StartDate { get; set; }
     public EmploymentType EmploymentType { get; set; }
     public string Department { get; set; } = string.Empty;
     public string Position { get; set; } = string.Empty;
