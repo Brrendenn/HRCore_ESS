@@ -9,6 +9,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c002901-5b8e-482b-9eb7-3fe81a8a0a05" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.HRCore_ESS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.HRCore_ESS/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net10.0/Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net10.0/Api.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net10.0/Application.dll" afterDir="false" />
@@ -17,38 +18,6 @@
       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net10.0/Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/SQL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net10.0/SQL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/SQL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/net10.0/SQL.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Api.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Api.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Api.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Api.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Web.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Web.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Web.staticwebassets.endpoints.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Web.staticwebassets.runtime.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Api.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Api.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Web.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Web.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Web.staticwebassets.endpoints.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Web.staticwebassets.runtime.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Api.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Api.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Web.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Web.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Web.staticwebassets.endpoints.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Web.staticwebassets.runtime.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Web.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Web.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Web.staticwebassets.endpoints.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/bin/Debug/net10.0/Web.staticwebassets.runtime.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/Debug/net10.0/Api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net10.0/Api.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/Debug/net10.0/Api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net10.0/Api.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/Debug/net10.0/Api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net10.0/Api.csproj.AssemblyReference.cache" afterDir="false" />
@@ -57,11 +26,6 @@
       <change beforePath="$PROJECT_DIR$/Api/obj/Debug/net10.0/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net10.0/Api.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/Debug/net10.0/ref/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net10.0/ref/Api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/Debug/net10.0/refint/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/net10.0/refint/Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Commands/UpdateEmployeeCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Commands/UpdateEmployeeCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Commands/UpdateEmployeeInfoCommand.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Commands/UpdateEmployeeInfoCommand.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Queries/GetEmployeeProfileByIdQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Queries/GetEmployeeProfileByIdQuery.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Queries/GetMyProfileQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Queries/GetMyProfileQuery.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Queries/GetUpdateRequestQuery.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Queries/GetUpdateRequestQuery.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net10.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net10.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net10.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net10.0/Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/bin/Debug/net10.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/bin/Debug/net10.0/Domain.dll" afterDir="false" />
@@ -69,26 +33,18 @@
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net10.0/Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net10.0/Application.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net10.0/Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net10.0/Application.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net10.0/Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net10.0/Application.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net10.0/Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net10.0/Application.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net10.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net10.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net10.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net10.0/Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net10.0/ref/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net10.0/ref/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/obj/Debug/net10.0/refint/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Application/obj/Debug/net10.0/refint/Application.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/Employee.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/Employee.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/EmployeeUpdateRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/EmployeeUpdateRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Entities/EmploymentInformation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Entities/EmploymentInformation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net10.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net10.0/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/bin/Debug/net10.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/bin/Debug/net10.0/Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net10.0/Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net10.0/Domain.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net10.0/Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net10.0/Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net10.0/Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net10.0/Domain.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net10.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net10.0/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net10.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net10.0/Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net10.0/ref/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net10.0/ref/Domain.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/net10.0/refint/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/net10.0/refint/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/Migrations/20260219090704_InitialCreate.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/Migrations/20260219090704_InitialCreate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SQL/bin/Debug/net10.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/bin/Debug/net10.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SQL/bin/Debug/net10.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/bin/Debug/net10.0/Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SQL/bin/Debug/net10.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/bin/Debug/net10.0/Domain.dll" afterDir="false" />
@@ -99,7 +55,6 @@
       <change beforePath="$PROJECT_DIR$/SQL/obj/Debug/net10.0/SQL.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/obj/Debug/net10.0/SQL.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SQL/obj/Debug/net10.0/SQL.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/obj/Debug/net10.0/SQL.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SQL/obj/Debug/net10.0/SQL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/obj/Debug/net10.0/SQL.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/obj/Debug/net10.0/SQL.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/obj/Debug/net10.0/SQL.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SQL/obj/Debug/net10.0/SQL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/obj/Debug/net10.0/SQL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SQL/obj/Debug/net10.0/SQL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/obj/Debug/net10.0/SQL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SQL/obj/Debug/net10.0/ref/SQL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/obj/Debug/net10.0/ref/SQL.dll" afterDir="false" />
@@ -259,7 +214,7 @@
       <workItem from="1770950243620" duration="11429000" />
       <workItem from="1771204257958" duration="55580000" />
       <workItem from="1771486577192" duration="7131000" />
-      <workItem from="1771549812856" duration="9238000" />
+      <workItem from="1771549812856" duration="10786000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed The Employment Info Update for Supervisor Role">
       <option name="closed" value="true" />
@@ -285,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771558886634</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updated Data Type, DateOnly cannot be used">
+      <option name="closed" value="true" />
+      <created>1771559400210</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771559400210</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +261,8 @@
     <MESSAGE value="Fixed The Employment Info Update for Supervisor Role" />
     <MESSAGE value="Fixed Update Info Bug" />
     <MESSAGE value="Changed Data Type for DateTime to DateOnly" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Data Type for DateTime to DateOnly" />
+    <MESSAGE value="Updated Data Type, DateOnly cannot be used" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Data Type, DateOnly cannot be used" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

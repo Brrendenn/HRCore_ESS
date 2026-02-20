@@ -43,7 +43,7 @@ public class EmployeeConfiguration : IEntityTypeConfiguration<Employee>
         
         builder.Property(e => e.DateOfBirth)
             .HasColumnName("emp_DOB")
-            .HasColumnType("datetime")
+            .HasColumnType("date")
             .IsRequired();
         
         builder.Property(e => e.MaritalStatus)
